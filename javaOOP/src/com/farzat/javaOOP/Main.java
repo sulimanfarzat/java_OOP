@@ -50,14 +50,18 @@ public class Main {
 		
 		
 		// overriding
-		System.out.println("\n-------------overriding---------------\n");
+		System.out.println("\n-------------super class---------------\n");
 		Cat cat = new Cat();
-		Dog dog = new Dog();
+		Dog dog = new Dog(4);
 		Lion lion = new Lion();
 		
+		System.out.println("\n-------------overriding---------------\n");
 		cat.eat();
+		cat.sleep();
 		dog.eat();
+		dog.sleep();
 		lion.eat();
+		lion.sleep();
 		
 
 	}

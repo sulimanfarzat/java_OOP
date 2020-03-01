@@ -21,5 +21,15 @@ public class Dog extends Animal {
 		System.out.println("The dog is playing ");
 	}
 	
+	
+	// super classs
+	int Age;
+
+	public Dog(int age) {
+		super();
+		Age = age;
+		System.out.println("this is my  " + age );
+	}
+	
 
 }
